@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDiv"></div>
+</body>
+<script>
+    var myDiv = document.getElementById("myDiv");
+    var day = new Date();
+    myDiv.innerHTML = `
+        <b>Hello world</b>
+        <br/>I have a dream!
+        <br/>Today is ${day}!
+    `;
+</script>
+</html>
