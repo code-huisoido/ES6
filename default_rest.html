@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    //ES5
+    function animal(type){
+        type = type || 'cat';
+        console.log(type);
+    }
+    animal();
+
+    //ES6
+    function animal(type='cat'){
+        console.log(type);
+    }
+    animal();
+
+    //ES5
+    function otherAnimals(){
+        console.log(arguments);
+    }
+    otherAnimals('cat', 'dog', 'fish');
+
+    //ES6
+    function animals(...types){
+        console.log(types);
+    }
+    animals('cat', 'dog', 'fish');
+ 
+</script>
+</html>
