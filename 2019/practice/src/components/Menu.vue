@@ -23,7 +23,7 @@ export default {
   methods: {},
   mounted() {
     this.$nextTick(() => {
-      console.log(this.$router);
+  
     });
   }
 };
