@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.4.5",
-    "highlight.js": "^9.15.6",
+    "highlight.js": "^10.4.1",
     "mavon-editor": "^2.7.4",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
